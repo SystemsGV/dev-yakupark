@@ -181,9 +181,10 @@
   jQuery(window).on("load", function () {
     jQuery("#status").fadeOut(2500);
     jQuery("#loader").delay(2000).fadeOut();
-    jQuery("#title").addClass("animate__animated animate__bounce");
   });
   $(window).scroll(function () {
+    jQuery("#title").addClass("animate__animated animate__bounce");
+
     var window_top = $(window).scrollTop() + 1;
     if (window_top > 400) {
       $(".wp_header_wrapper").addClass("menu_fixed animated fadeInDown");
