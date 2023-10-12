@@ -649,7 +649,7 @@ button:focus {
     ),
     url(../images/new/banner.webp);
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
   padding: 250px 0px;
   text-align: center;
   position: relative;
@@ -1747,5 +1747,49 @@ button:focus {
 @media (max-width: 380px) {
   .wp_navigation_menu.wp_menu_show_hide {
     width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .wp_banner_wrapper {
+    background: -webkit-linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2),
+        rgba(61, 202, 246, 1)
+      ),
+      url(../images/3d6.gif);
+    background: -moz-linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2),
+        rgba(61, 202, 246, 1)
+      ),
+      url(../images/3d6.gif);
+    background: -ms-linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2),
+        rgba(61, 202, 246, 1)
+      ),
+      url(../images/3d6.gif);
+    background: -o-linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2),
+        rgba(61, 202, 246, 1)
+      ),
+      url(../images/3d6.gif);
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2),
+        rgba(61, 202, 246, 1)
+      ),
+      url(../images/3d6.gif);
+    background-size: cover;
+    background-position: top;
+    padding: 250px 0px;
+    text-align: center;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
   }
 }
