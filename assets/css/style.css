@@ -1749,7 +1749,7 @@ button:focus {
     width: 100%;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 767px) {
   .wp_banner_wrapper {
     background: -webkit-linear-gradient(
         rgba(0, 0, 0, 0.2),
