@@ -26,6 +26,15 @@ Version: 1.0
 19. Responsive css
 */
 /*-------- Body Strat --------*/
+@font-face {
+  font-family: "Water-Galon";
+  src: url("../fonts/Water-Galon.ttf");
+}
+@font-face {
+  font-family: "AndyBear";
+  src: url("../fonts/Andy Bear.ttf");
+}
+
 body {
   font-family: "Lato";
   font-size: 14px;
@@ -660,6 +669,7 @@ button:focus {
   transition: all 0.3s;
 }
 .wp_banner_caption .wp_banner_text {
+  font-family: "Water-Galon";
   padding: 50px 0px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.2);
@@ -707,13 +717,14 @@ button:focus {
   font-weight: bold;
 }
 .wp_banner_caption p span {
-  color: #f1c50e;
+  color: #0e7205;
 }
 /*-------- about section start -------*/
 .wp_about_caption h2 {
+  font-family: "AndyBear";
   font-size: 30px;
   color: #3dcaf6;
-  font-weight: 500;
+  font-weight: 700;
 }
 .wp_about_caption p {
   margin-top: 20px;
@@ -1707,7 +1718,7 @@ button:focus {
     right: -15px;
   }
 }
-@media screen and  (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .wp_banner_wrapper {
     background: -webkit-linear-gradient(
         rgba(0, 0, 0, 0.2),
